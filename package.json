@@ -1,0 +1,23 @@
+{
+  "name": "terminal-connect-four",
+  "version": "1.0.0",
+  "description": "just a connect four game that runs in a terminal",
+  "main": "index.js",
+  "repository": "https://github.com/ItsLaney/terminal-connect-four.git",
+  "author": "itsLaney",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "@types/prompt-sync": "^4.1.0",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "prompt-sync": "^4.2.0"
+  }
+}
